@@ -1,0 +1,89 @@
+body {
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+.glyphicon {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.glyphicon-chevron-left:before {
+    content: "\f053"
+}
+
+.glyphicon-chevron-right:before {
+    content: "\f054"
+}
+
+.glyphicon-chevron-up:before {
+    content: "\f062"
+}
+
+.glyphicon-chevron-down:before {
+    content: "\f063"
+}
+
+.actions-cards .card .progress {
+    margin: 10px 0;
+}
+
+.actions-cards .card .card-footer .progress {
+    margin: 0;
+}
+
+.actions-card .row {
+    margin: 0;
+}
+
+#actions>div>div.actions-cards>div.row>div.card,
+#actions>div>div.actions-cards>div.row>div.card .progress {
+    padding: 0;
+}
+
+#actions>div>div.actions-cards>div.row {
+    margin: 0;
+}
+
+.applications {
+    margin-bottom: 20px;
+}
+
+.container .card {
+    margin-bottom: 10px;
+}
+
+.btn-facebook {
+    color: #fff;
+    background-color: #3b5998;
+    border-color: rgba(0, 0, 0, 0.2);
+}
+
+.btn-social {
+    position: relative;
+    padding-left: 44px;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.btn-social:hover {
+    color: #eee;
+}
+
+.btn-social :first-child {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 40px;
+    padding: 7px;
+    font-size: 1.6em;
+    text-align: center;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
